@@ -1,4 +1,5 @@
 <?php
+namespace MyApp\Notifications;
 class EmailNotification extends AbstractNotification
 {
     private $type = 'Email';

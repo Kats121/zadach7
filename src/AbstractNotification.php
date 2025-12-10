@@ -1,12 +1,5 @@
 <?php
-require 'EmailNotification.php';
-interface Notification
-{
-    public function send($message);
-    public function getStatus();
-    public function getType();
-}
-
+namespace MyApp\Notifications;
 abstract class AbstractNotification implements Notification
 {
     protected $status;

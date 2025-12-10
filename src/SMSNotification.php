@@ -1,5 +1,5 @@
 <?php
-require "SMSNotification.php";
+namespace MyApp\Notifications;
 class SMSNotification extends AbstractNotification
 {
     private $type = 'SMS';
