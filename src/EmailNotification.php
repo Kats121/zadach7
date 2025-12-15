@@ -2,7 +2,7 @@
 namespace MyApp\Notifications;
 class EmailNotification extends AbstractNotification
 {
-    private $type = 'Email';
+    private string $type = 'Email';
 
     public function send($message)
     {

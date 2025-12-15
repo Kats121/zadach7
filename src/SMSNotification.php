@@ -2,7 +2,7 @@
 namespace MyApp\Notifications;
 class SMSNotification extends AbstractNotification
 {
-    private $type = 'SMS';
+    private string $type = 'SMS';
 
     public function send($message)
     {

@@ -2,8 +2,8 @@
 namespace MyApp\Notifications;
 abstract class AbstractNotification implements Notification
 {
-    protected $status;
-    protected $timestamp;
+    protected string $status;
+    protected int $timestamp;
 
     public function __construct()
     {
